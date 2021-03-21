@@ -1,6 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative; 
+}
+
 .vertical-nav {
-    min-width: 16rem;
-    width: 16rem;
+    min-width: 19rem;
+    width: 19rem;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -10,13 +18,13 @@
 }
 
 .page-content {
-    width: calc(100% - 17rem);
-    margin-left: 17rem;
+    width: calc(100% - 19rem);
+    margin-left: 19rem;
     transition: all 0.4s;
 }
 
 #sidebar.active {
-    margin-left: -17rem;
+    margin-left: -19em;
 }
 
 #content.active {
@@ -26,7 +34,7 @@
 
 @media (max-width: 768px) {
     #sidebar {
-        margin-left: -17rem;
+        margin-left: -19em;
     }
     #sidebar.active {
         margin-left: 0;
@@ -36,11 +44,35 @@
         margin: 0;
     }
     #content.active {
-        margin-left: 17rem;
-        width: calc(100% - 17rem);
+        margin-left: 19em;
+        width: calc(100% - 19em);
     }
 }
 
 .bg-nav {
     background-color: #15202b;
+}
+
+.bg-page {
+    background-color: dark-grey;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
 }
