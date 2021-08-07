@@ -6,18 +6,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="assets/favicon.png">
+    <link rel="icon" href="assets/images/favicon.png">
     <title>Portfolio</title>
   </head>
   <body data-spy="scroll" data-target=".vertical-nav" data-offset="50" class="custom-scrollbar-js">
     <div class="vertical-nav bg-nav" id="sidebar">
         <div class="py-4 px-3 bg-nav" style="margin-top: 50%;">      
         <div class="text-center">
-            <img src="assets/profile.png" width="150" height="150" class="rounded-circle">
+            <img src="assets/images/profile.png" width="150" height="150" class="rounded-circle">
             </div>
         </div>
-
-        <ul class="nav flex-column bg-nav">
+        <ul class="nav flex-column bg-nav vertical-nav-font">
           <li class="nav-item">
             <a href="#section1" class="nav-link text-light text-uppercase h5 text-center">About</a>
           </li>
@@ -25,38 +24,93 @@
             <a href="#section2" class="nav-link text-light text-uppercase h5 text-center">Education</a>
           </li>
           <li class="nav-item">
-            <a href="#section3" class="nav-link text-light text-uppercase h5 text-center">Skills</a>
+            <a href="#section3" class="nav-link text-light text-uppercase h5 text-center">Projects</a>
           </li>
           <li class="nav-item">
-            <a href="#section4" class="nav-link text-light text-uppercase h5 text-center">Interests</a>
+            <a href="#section4" class="nav-link text-light text-uppercase h5 text-center">Skills</a>
           </li>
           <li class="nav-item">
-            <a href="#section5" class="nav-link text-light text-uppercase h5 text-center">Contact</a>
+            <a href="#section5" class="nav-link text-light text-uppercase h5 text-center">Contacts</a>
           </li>
         </ul>
     </div>
-
-    <div class="page-content p-4 bg-page bg-dark" id="content" style="height: 100%;">
-        <!-- Toggle button -->
-        <button id="sidebarCollapse" type="button" class="btn btn-dark bg-nav rounded-pill shadow-sm px-4 mb-4 position-fixed">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-            </svg>
-        </button>
-        <!-- Page content -->
-        <div id="section1" class="container-fluid" style="padding-top:70px; padding-bottom:70px">
-            <h1 class="text-light">André Clérigo</h1>
-            <h3 class="text-white">Hello, World</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
+        <div class="page-content px-5 pb-5 bg-page bg-dark" id="content" style="height: 100%">
+            <div id="section1" class="container-fluid container-padding" style="padding-top:0px !important;">
+                <br>
+            <!-- Toggle button -->
+            <button id="sidebarCollapse" type="button" class="btn btn-dark bg-nav rounded-pill shadow-sm px-4 py-2 mb-4 position-fixed">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16" style="display: block; margin: auto">
+                    <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </button>
+            <!-- Page content -->
+            <div style="padding: 20px;"></div>
+            <h1>about me</h1>
+            <div style="padding: 10px;"></div>
+            <div class="row">
+                <div class="col">
+                    <p>I'm André Clérigo and I'm a Student in <a href="https://www.ua.pt" target="_blank" style="color: #4b8aa4;">University of Aveiro</a></p>
+                    <p>Started college in 2019 and I'm taking a Degree in Computer Engeneering and also a Masters in Computer Engeneering and Telematics</p>
+                    <p>My main interests are related with Robotics and IoT doing projects with ESPs, Arduinos and Raspberry Pis</p>
+                    <br>
+                    <p>I also played CS:GO semi-professional from 2018 to 2020 and currently teach CS:GO on <a href="https://www.authorizedgamesclass.com" target="_blank" style="color: #4b8aa4;">AGC</a></p>
+                </div>
+                <div class="col-md-">
+                    <img src="assets/images/about.jpg" height="580" style="float: right; margin-right: 100px;">
+                </div>
+            </div>
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div id="section2" class="container-fluid container-padding">
+            <h1>university of aveiro</h1>
+            <div style="padding: 10px;"></div>
+            <p>This is my home</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+            <p>This is my website, have fun!</p>
+        </div>
+        <div id="section3" class="container-fluid container-padding">
+            <h1>my personal projects</h1>
+            <div style="padding: 10px;"></div>
+            <h2>website minecraft</h2>
+            <h2>twitter Bot</h2>
+            <h2>raspberry pi pico</h2>
+            <h2>cryptochecker</h2>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             <br>
             <br>
             <br>
@@ -70,20 +124,41 @@
             <br>
             <br>
         </div>
-        <div id="section2" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
-            <h1 class="text-light">My personal projects</h1>
-            <h3 class="text-white">Hello, World</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
+        <div id="section4" class="container-fluid container-padding">
+            <h1>skills</h1>
+            <div style="padding: 10px;"></div>
+            <p>As I said I have a soft spot in my heart for Robotics and I love everything that comes with it but I also enjoy Server Networking and Mobile development</p>
             <br>
+            <div class="row">
+                <div class="col">
+                    <p>The languages I most use are:</p>
+                    <ul>
+                        <li>Java <img src="assets/icons/java.png" alt="java" height="40"></li>
+                        <li>Python <img src="assets/icons/py.png" alt="python" height="40"></li>
+                        <li>C/C++ <img src="assets/icons/c.png" alt="C" height="40"></li>
+                        <li>HTML + CSS + JS <img src="assets/icons/html-css-js.png" alt="html-css-js" height="40"></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <p>The ones I want to improve:</p>
+                    <ul>
+                        <li>NodeJS <img src="assets/icons/node.png" alt="node" height="40"></li>
+                        <li>Dart <img src="assets/icons/dart.png" alt="dart" height="40"></li>
+                        <li>TypeScript <img src="assets/icons/typescript.png" alt="typescript" height="40"></li>
+                        <li>MySQL <img src="assets/icons/mysql.png" alt="mysql" height="40"></li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <p>In the future I would also like to learn other languages such as C# and Kotlin but time will come</p>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div id="section5" class="container-fluid container-padding">
+            <h1>contacts</h1>
+            <div style="padding: 10px;"></div>
+            <h3">You contact me via</h3>
             <br>
             <br>
             <br>
@@ -96,85 +171,7 @@
             <br>
             <br>
         </div>
-        <div id="section3" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
-            <h1 class="text-light">University of Aveiro</h1>
-            <h3 class="text-white">Hello, World</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-        </div>
-        <div id="section4" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
-            <h1 class="text-light">4</h1>
-            <h3 class="text-white">Hello, World</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-        </div>
-        <div id="section5" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
-            <h1 class="text-light">5</h1>
-            <h3 class="text-white">Hello, World</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <h3 class="text-white">This is my website, have fun!</h3>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-      </div>
-
+    </div>
     <!-- Javascript -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
