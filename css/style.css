@@ -9,7 +9,7 @@ body {
     position: relative;
     font-family: 'Varela', sans-serif;
     color: white;
-    font-size: 35px;
+    font-size: 1.82vw;
     background-image: url('/assets/images/bck.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -22,11 +22,11 @@ h1,h2,h3,h4 {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 4.2vw;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 2.6vw;
 }
 
 .vertical-nav {
@@ -137,7 +137,7 @@ a:hover, a:focus, a:active {
 
 .contact-style {
     text-align: center; 
-    font-size: 25px;
+    font-size: 1.3vw;
 }
 
 .center {
