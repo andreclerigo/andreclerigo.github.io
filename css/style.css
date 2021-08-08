@@ -30,6 +30,7 @@ h2 {
 }
 
 .vertical-nav {
+    z-index:2000;
     min-width: 19rem;
     width: 19rem;
     height: 100vh;
@@ -72,7 +73,7 @@ h2 {
     }
     #content.active {
         margin-left: 19em;
-        width: calc(100% - 19em);
+        width: calc(100% - 9em);
     }
 }
 
@@ -112,6 +113,7 @@ h2 {
 
 .btn {
     border-width: 0;
+    z-index:2000
 }
 
 .container-padding {
