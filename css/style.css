@@ -94,7 +94,7 @@ h2 {
   
   /* Track */
 ::-webkit-scrollbar-track {
-    background: #6c757d; 
+    background-image: url('/assets/images/bck.jpg');
 }
    
 /* Scrobll bar background */
