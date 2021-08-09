@@ -3,6 +3,8 @@
 
 html {
     scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -13,6 +15,8 @@ body {
     background-image: url('/assets/images/bck.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 h1,h2,h3,h4 {
